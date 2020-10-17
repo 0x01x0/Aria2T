@@ -439,7 +439,7 @@ View_Aria2() {
         AriaNg_URL="null"
     else
         AriaNg_API="/#!/settings/rpc/set/ws/${LocalIP}/${aria2_port}/jsonrpc/$(echo -n ${aria2_passwd} | base64)"
-        AriaNg_URL="http://p3terx.gitee.io/ariang/#!/downloading/${AriaNg_API}"
+        AriaNg_URL="http://p3terx.gitee.io/ariang/${AriaNg_API}"
     fi
     clear
     echo -e "\nAria2 简单配置信息：\n
