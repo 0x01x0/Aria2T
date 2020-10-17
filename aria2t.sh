@@ -1,4 +1,16 @@
 #!$PREFIX/bin/bash
+#
+# Copyright (c) 2017 Toyo
+# Copyright (c) 2018-2020 P3TERX <https://p3terx.com>
+#
+# This is free software, licensed under the MIT License.
+# See /LICENSE for more information.
+#
+# https://github.com/P3TERX/aria2.sh
+# Description: Aria2 One-click installation management script
+# System Required: CentOS/Debian/Ubuntu
+# Version: 2.7.2
+#
 
 sh_ver="2.7.2"
 #PATH=/data/data/com.termux/files/usr/bin
