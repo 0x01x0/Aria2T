@@ -6,8 +6,14 @@
 pkg install wget bash
 ```
 
-* 运行脚本(以管理员权限运行)
+* 下载脚本
 
 ```
-bash <(wget -qO- https://git.io/JTcfI)
+wget https://raw.githubusercontent.com/0x01x0/Aria2T/main/aria2t.sh && chmod +x aria2t.sh
+```
+
+* 运行脚本
+
+```
+bash aria2t.sh
 ```
